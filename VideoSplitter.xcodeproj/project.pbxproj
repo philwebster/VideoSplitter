@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D39049001FA642D700020DD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39048FF1FA642D700020DD2 /* AppDelegate.swift */; };
+		D39049021FA642D700020DD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39049011FA642D700020DD2 /* ViewController.swift */; };
+		D39049051FA642D700020DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39049031FA642D700020DD2 /* Main.storyboard */; };
+		D39049071FA642D700020DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D39049061FA642D700020DD2 /* Assets.xcassets */; };
+		D390490A1FA642D700020DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39049081FA642D700020DD2 /* LaunchScreen.storyboard */; };
+		D39049151FA642D800020DD2 /* VideoSplitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39049141FA642D800020DD2 /* VideoSplitterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D39049111FA642D800020DD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D39048F41FA642D700020DD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D39048FB1FA642D700020DD2;
+			remoteInfo = VideoSplitter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D39048FC1FA642D700020DD2 /* VideoSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39048FF1FA642D700020DD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D39049011FA642D700020DD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D39049041FA642D700020DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D39049061FA642D700020DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D39049091FA642D700020DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D390490B1FA642D700020DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D39049101FA642D800020DD2 /* VideoSplitterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoSplitterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39049141FA642D800020DD2 /* VideoSplitterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSplitterTests.swift; sourceTree = "<group>"; };
+		D39049161FA642D800020DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D39048F91FA642D700020DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390490D1FA642D800020DD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39048F31FA642D700020DD2 = {
+			isa = PBXGroup;
+			children = (
+				D39048FE1FA642D700020DD2 /* VideoSplitter */,
+				D39049131FA642D800020DD2 /* VideoSplitterTests */,
+				D39048FD1FA642D700020DD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D39048FD1FA642D700020DD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D39048FC1FA642D700020DD2 /* VideoSplitter.app */,
+				D39049101FA642D800020DD2 /* VideoSplitterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D39048FE1FA642D700020DD2 /* VideoSplitter */ = {
+			isa = PBXGroup;
+			children = (
+				D39048FF1FA642D700020DD2 /* AppDelegate.swift */,
+				D39049011FA642D700020DD2 /* ViewController.swift */,
+				D39049031FA642D700020DD2 /* Main.storyboard */,
+				D39049061FA642D700020DD2 /* Assets.xcassets */,
+				D39049081FA642D700020DD2 /* LaunchScreen.storyboard */,
+				D390490B1FA642D700020DD2 /* Info.plist */,
+			);
+			path = VideoSplitter;
+			sourceTree = "<group>";
+		};
+		D39049131FA642D800020DD2 /* VideoSplitterTests */ = {
+			isa = PBXGroup;
+			children = (
+				D39049141FA642D800020DD2 /* VideoSplitterTests.swift */,
+				D39049161FA642D800020DD2 /* Info.plist */,
+			);
+			path = VideoSplitterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D39048FB1FA642D700020DD2 /* VideoSplitter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D39049191FA642D800020DD2 /* Build configuration list for PBXNativeTarget "VideoSplitter" */;
+			buildPhases = (
+				D39048F81FA642D700020DD2 /* Sources */,
+				D39048F91FA642D700020DD2 /* Frameworks */,
+				D39048FA1FA642D700020DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoSplitter;
+			productName = VideoSplitter;
+			productReference = D39048FC1FA642D700020DD2 /* VideoSplitter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D390490F1FA642D800020DD2 /* VideoSplitterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D390491C1FA642D800020DD2 /* Build configuration list for PBXNativeTarget "VideoSplitterTests" */;
+			buildPhases = (
+				D390490C1FA642D800020DD2 /* Sources */,
+				D390490D1FA642D800020DD2 /* Frameworks */,
+				D390490E1FA642D800020DD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D39049121FA642D800020DD2 /* PBXTargetDependency */,
+			);
+			name = VideoSplitterTests;
+			productName = VideoSplitterTests;
+			productReference = D39049101FA642D800020DD2 /* VideoSplitterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D39048F41FA642D700020DD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Phil Webster";
+				TargetAttributes = {
+					D39048FB1FA642D700020DD2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D390490F1FA642D800020DD2 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D39048FB1FA642D700020DD2;
+					};
+				};
+			};
+			buildConfigurationList = D39048F71FA642D700020DD2 /* Build configuration list for PBXProject "VideoSplitter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D39048F31FA642D700020DD2;
+			productRefGroup = D39048FD1FA642D700020DD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D39048FB1FA642D700020DD2 /* VideoSplitter */,
+				D390490F1FA642D800020DD2 /* VideoSplitterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D39048FA1FA642D700020DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D390490A1FA642D700020DD2 /* LaunchScreen.storyboard in Resources */,
+				D39049071FA642D700020DD2 /* Assets.xcassets in Resources */,
+				D39049051FA642D700020DD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390490E1FA642D800020DD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D39048F81FA642D700020DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39049021FA642D700020DD2 /* ViewController.swift in Sources */,
+				D39049001FA642D700020DD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D390490C1FA642D800020DD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39049151FA642D800020DD2 /* VideoSplitterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D39049121FA642D800020DD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D39048FB1FA642D700020DD2 /* VideoSplitter */;
+			targetProxy = D39049111FA642D800020DD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D39049031FA642D700020DD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39049041FA642D700020DD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D39049081FA642D700020DD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D39049091FA642D700020DD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D39049171FA642D800020DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D39049181FA642D800020DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D390491A1FA642D800020DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9RH239UZW;
+				INFOPLIST_FILE = VideoSplitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phil.VideoSplitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D390491B1FA642D800020DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9RH239UZW;
+				INFOPLIST_FILE = VideoSplitter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phil.VideoSplitter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D390491D1FA642D800020DD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9RH239UZW;
+				INFOPLIST_FILE = VideoSplitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phil.VideoSplitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoSplitter.app/VideoSplitter";
+			};
+			name = Debug;
+		};
+		D390491E1FA642D800020DD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V9RH239UZW;
+				INFOPLIST_FILE = VideoSplitterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phil.VideoSplitterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoSplitter.app/VideoSplitter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D39048F71FA642D700020DD2 /* Build configuration list for PBXProject "VideoSplitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D39049171FA642D800020DD2 /* Debug */,
+				D39049181FA642D800020DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D39049191FA642D800020DD2 /* Build configuration list for PBXNativeTarget "VideoSplitter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D390491A1FA642D800020DD2 /* Debug */,
+				D390491B1FA642D800020DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D390491C1FA642D800020DD2 /* Build configuration list for PBXNativeTarget "VideoSplitterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D390491D1FA642D800020DD2 /* Debug */,
+				D390491E1FA642D800020DD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D39048F41FA642D700020DD2 /* Project object */;
+}
