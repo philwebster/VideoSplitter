@@ -195,7 +195,7 @@ class VideoSplitterViewController: UIViewController {
         imageGenerator.appliesPreferredTrackTransform = true
         
         let endTime = Float(playerItem.duration.value)
-        let strideLength = endTime / 5
+        let strideLength = endTime / 9
         let times = stride(from: 0, to: endTime, by: strideLength).map { NSValue(time: CMTime(seconds: Double($0), preferredTimescale: timeScale)) }
 
         imageGenerator.generateCGImagesAsynchronously(forTimes: times) { (requestedTime, image, actualTime, result, error) in
