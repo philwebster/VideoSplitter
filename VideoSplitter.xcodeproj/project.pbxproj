@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D36D25781FA662D500D2276E /* VideoSplitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D25771FA662D500D2276E /* VideoSplitterViewController.swift */; };
+		D36D25C41FA82B6E00D2276E /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36D25C31FA82B6E00D2276E /* TimelineView.swift */; };
 		D39049001FA642D700020DD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39048FF1FA642D700020DD2 /* AppDelegate.swift */; };
 		D39049021FA642D700020DD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39049011FA642D700020DD2 /* ViewController.swift */; };
 		D39049051FA642D700020DD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D39049031FA642D700020DD2 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D36D25771FA662D500D2276E /* VideoSplitterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSplitterViewController.swift; sourceTree = "<group>"; };
+		D36D25C31FA82B6E00D2276E /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
 		D39048FC1FA642D700020DD2 /* VideoSplitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoSplitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D39048FF1FA642D700020DD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D39049011FA642D700020DD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				D39048FF1FA642D700020DD2 /* AppDelegate.swift */,
 				D39049011FA642D700020DD2 /* ViewController.swift */,
+				D36D25771FA662D500D2276E /* VideoSplitterViewController.swift */,
+				D36D25C31FA82B6E00D2276E /* TimelineView.swift */,
 				D39049031FA642D700020DD2 /* Main.storyboard */,
 				D39049061FA642D700020DD2 /* Assets.xcassets */,
 				D39049081FA642D700020DD2 /* LaunchScreen.storyboard */,
@@ -200,7 +206,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D39049021FA642D700020DD2 /* ViewController.swift in Sources */,
+				D36D25781FA662D500D2276E /* VideoSplitterViewController.swift in Sources */,
 				D39049001FA642D700020DD2 /* AppDelegate.swift in Sources */,
+				D36D25C41FA82B6E00D2276E /* TimelineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
